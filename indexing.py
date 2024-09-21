@@ -54,7 +54,7 @@ for term in terms:
     docTermMatrix.append(tfidf_row)
 
 # Printing the document-term matrix.
-print("tf-idf document-term matrix")
+print("tf-idf document-term matrix: \n")
 for i, term in enumerate(terms):
     print(f"Term: {term}")
     for j, tfidfVal in enumerate(docTermMatrix[i]):
